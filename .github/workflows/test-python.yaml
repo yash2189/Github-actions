@@ -1,8 +1,0 @@
-name: learn-github-actions-with-python
-run-name: Python Testing
-on: [push]
-jobs:
-  check-python-version:
-    runs-on: ubuntu-latest
-    steps:
-      - run: python --version
